@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+        * {
+            padding: 0 0;
+            margin: 0 0;
+        }
+
+        body {
+            background-color: #fef6eb;
+        }
+
+        header h2 {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+        }
+
+        header {
+            background-color: #001545;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 32px 10px;
+
+        }
+
+        header li {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav__links {
+            list-style: none;
+        }
+
+        .nav__links li {
+            display: inline;
+            padding: 0px, 20px;
+        }
+
+        .nav__links li a {
+            list-style: none;
+            text-decoration: none;
+            color: white;
+            margin-right: 40px;
+            transition: all 0.3s ease 0s;
+
+        }
+
+        .nav__links li a:hover {
+            color: rgb(238, 241, 34)
+        }
+
+        .canvas {
+
+            margin: 30px 2rem;
+            background-color: white;
+            border-radius: 1%;
+        }
+
+        #heading {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            background-color: #001545;
+            border: 1px solid black;
+            padding: 1rem;
+            border-radius: 1%;
+
+        }
+
+
+        header h2 {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+            margin-left: 30px;
+        }
+
+        .question_heading {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-size: 17px;
+            color: white;
+            background-color: #001545;
+            border: 1px solid black;
+            padding: .5rem;
+            margin-left: 1rem;
+        }
+
+        input[type="radio"] {
+            margin-left: 2rem;
+        }
+
+        label {
+            font-size: 18px;
+            line-height: 24px;
+            font-family: "Raleway", sans-serif;
+            font-weight: 350;
+            padding: .5rem;
+
+        }
+
+        .person {
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        .person img {
+            border-radius: 50%;
+            margin: 1rem;
+            width: 92%;
+
+        }
+
+        /* .person img:hover {
+            backdrop-filter: blur(10px);
+            filter: blur(4px);
+            transition: 0.5s ease;
+        } */
+        /* #profile1:hover+#profile2+#profile3 {
+            backdrop-filter: blur(10px);
+            filter: blur(4px);
+            transition: 0.5s ease;
+        } */
+
+        /* #profile1:hover+#profile3 {
+            backdrop-filter: blur(10px);
+            filter: blur(4px);
+            transition: 0.5s ease;
+        } */
+
+        #profile1:hover+#profile4 {
+            backdrop-filter: blur(10px);
+            filter: blur(4px);
+            transition: 0.5s ease;
+        }
+
+        .info {
+            text-align: center;
+        }
+
+        .person h3 {
+            font-size: 18px;
+            line-height: 24px;
+            font-family: "Raleway", sans-serif;
+            font-weight: 350;
+        }
+
+        .thenmozhi {
+            text-align: center;
+            font-size: 18px;
+            line-height: 24px;
+            font-family: "Raleway", sans-serif;
+
+        }
+
+        .thenmozhi img {
+            border-radius: 50%;
+            margin: 1rem;
+           
+
+
+        }
+
+        .icons {
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 2rem;
+            margin: .5rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <body style="background-color: #e0b860;">
+            <div class="logo"><a href="#"><img src="logo2.png"></a>
+
+            </div>
+            <h2>Memory Management</h2>
+            <nav>
+                <ul class="nav__links">
+
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="index_new.html">Description</a></li>
+                    <li><a href="types.html">Algorithms</a></li>
+                    <li><a href="imple.php">Implementation</a></li>
+                    <li><a href="login.php">Quiz</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                </ul>
+
+            </nav>
+    </header>
+    <div class="canvas">
+        <h2 id="heading">About us</h2>
+        <div class="subcanvas">
+            <div class="person">
+
+                <div class="priyanka " id="profile1">
+                    <img src="priyanka.png" alt="" width="180rem" height="240rem">
+                    <h3 class="info"><b>Priyanka Dutta
+                            <br>
+                            Frontend Developer - html/css
+                        </b>
+
+                    </h3>
+                    <div class="icons">
+
+                        <a href="https://www.linkedin.com/in/priyanka-dutta-142541203/" target="_blank">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+
+                        <a href = "mailto:priyankadutta905@gmail.com?subject = Feedback&body = Message">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </a>
+
+
+                    </div>
+                </div>
+
+                <div class="ritesh hover " id="profile2">
+                    <img src="ritesh.jpeg" alt="" width="180rem" height="240rem">
+                    <h3 class="info"><b>Ritesh
+                            <br>Backend Developer - JS
+                        </b>
+        
+
+
+                    </h3>
+                    <div class="icons">
+
+                        <a href="https://www.linkedin.com/in/ritesh-kukreti-29a138173/" target="_blank">
+                           <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+
+                        <a href = "mailto:?subject = Feedback&body = Message">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </a>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="saheli" id="profile3">
+                    <img src="saheli.png" alt="" width="180rem" height="240rem">
+                    <h3 class="info"><b>Saheli Jati
+                            <br>Backend - JS / Logic building
+                        </b>
+
+
+                    </h3>
+                    <div class="icons">
+
+                        <a href="https://www.linkedin.com/in/saheli-jati-29a195228/" target="_blank">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+
+                        <a href = "mailto:sahelijati130@gmail.com?subject = Feedback&body = Message">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="sakshi" id="profile4">
+                    <img src="./sakshi.png" width="180rem" height="240rem">
+                    <h3 class="info"><b>Sakchhi Choudhary
+                            <br>Designer - Wireframe/Frontend
+                        </b>
+
+                    </h3>
+                    <div class="icons">
+
+                        <a href="https://www.linkedin.com/in/sakchhi-choudhary-a3148818a/" target="_blank">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+
+                        <a href = "mailto:sakchhic@gmail.com?subject = Feedback&body = Message">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="mail">
+
+            </div>
+
+            <div class="thenmozhi">
+
+                <img src="./thenmozhi.png" width="250rem" height="270rem">
+                <h3 class="info">A very Special Thanks to <b>S.Thenmozhi</b> for guiding us in this project.
+                    <br>
+                </h3>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
